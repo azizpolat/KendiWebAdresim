@@ -1,0 +1,96 @@
+@media screen and (max-width: 770px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .logo h2 a {
+    font-size: 20px;
+  }
+
+  #menubar {
+    display: grid;
+    color: #fff;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .navlinks {
+    flex-direction: column;
+    position: absolute;
+    background-color: #242920;
+    width: 100%;
+    left: 0;
+    padding: 0;
+  }
+
+  .navlinks li a {
+    border-bottom: 1px solid #fff;
+    display: block;
+    border-radius: 0px;
+    padding: 10px 0;
+    margin: 0 px 20px;
+  }
+
+  .navlinks li:last-child {
+    border-bottom: none;
+  }
+
+  .inneranasayfa {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .childanasayfa {
+    flex-basis: 100%;
+  }
+
+  .childanasayfa:last-child {
+    margin-bottom: 20px;
+  }
+
+  .childanasayfa h1 {
+    font-size: 3opx;
+    line-height: 35px;
+  }
+
+  .childanasayfa p {
+    font-size: 20px;
+  }
+
+  .innersoftwarechild {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .courseschild {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .childachivement {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .singledetail {
+    flex-basis: 100%;
+  }
+
+  .childtest {
+    flex-basis: 100px;
+    margin-bottom: 30px;
+  }
+
+  .innerchild {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+}
